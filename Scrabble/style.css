@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("img/space.jpg")
+}
+
+.container{
+    width: 650px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 5px solid #656565;
+    border-radius: 10px;
+}
+
+.container h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    padding: 18px 25px;
+    border-bottom: 3px solid #656565;
+
+}
+
+.container .content{
+    margin: 25px 20px 35px;
+}
+
+.container .word{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 24px;
+    margin-right: -24px;
+    text-transform: uppercase;
+}
+
+.content .details{
+    margin: 25px 0 20px;
+}
+
+.details p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.details p b{
+    
+    font-weight: 500;
+}
+
+.content input{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    font-size: 18px;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+.content .buttons{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.buttons button{
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    width: calc(100% / 2 - 8px);
+}
+
+.buttons .refresh-word{
+    background: rgb(138, 136, 138);
+}
+
+.buttons .check-word{
+    background: rgb(51, 51, 52);
+
+}
+
